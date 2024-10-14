@@ -8,6 +8,7 @@ exports.config = {
     name: 'example',
     author: 'Your_Name',
     description: 'API Description',
+    category: 'utility',
     link: ['/example?q=test'] 
 };
 
