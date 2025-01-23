@@ -9,7 +9,7 @@
   },
   "keywords": [],
   "author": "",
-  "node": "18.x"
+  "node": "18.x",
   "license": "ISC",
   "dependencies": {
     "@types/node": "^18.0.6",
