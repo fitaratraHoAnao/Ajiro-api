@@ -5,7 +5,10 @@
       "src": "api/index.js",
       "use": "@vercel/node",
       "config": {
-        "nodeVersion": "18.x"
+        "env": {
+          "CANVAS_SKIP_INSTALL": "1",
+          "NODE_ENV": "production"
+        }
       }
     }
   ],
