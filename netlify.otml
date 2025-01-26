@@ -1,0 +1,17 @@
+[build]
+  command = "npm install"
+  functions = "netlify/functions"
+  publish = "incluses/web"
+
+[build.environment]
+  NODE_VERSION = "18"
+
+[dev]
+  command = "node index.js"
+  port = 8888
+  publish = "incluses/web"
+
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/:splat"
+  status = 200
